@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets\css\swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets\css\styles.css">
+
+        <!--==================== FAVICON ====================-->
+        <link rel="icon" type="img/favicon.png" href="assets/img/favicon.png">
+
+
+        <title>Jay Prajapati | Software Engineer</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <!-- <a href="#" class="nav__logo">Jay Prajapati</a> -->
+
+                <a href="#">
+                    <span class="nav__logo"><</span>
+                    <span class="nav__logo">Jay Prajapati</span>
+                    <span class="nav__logo">/></span>
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class = "nav__item">        
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                            
+                        <li>
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                            
+                        <li>
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme Change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/Jay9122" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/_jay_9122" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>                            </a>
+                            <a href="https://www.github.com/jay2219" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                            <a href="mailto:jay54prajapati@gmail.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class ="home__blob"viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class ="home__blob-img" x='12' y='18' xlink:href="assets\img\Profile Img.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Jay Prajapati</h1>
+                                <p class="typewriter">I'm a 
+                                  <span data-text="Web Developer., UI/UX Designer., Freelancer., Data Scientist"></span>
+                                </p>
+                            <a href="#footer" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/About img.png" alt="" class="about__img">
+
+                    <div class="avout__data">
+                        <p class="about__description"> Pre-final year CSE undergrad. I aspire to 
+                            become a data scientist. I explore several aspects, such as technical 
+                            writing, application development, front-end development, and UI/UX designing. 
+                            Expertise in statistics, machine learning, and exploratory data analysis. 
+                            I am passionate about learning new topics in data science, data visualization, and research.
+                        </p>
+
+                        <div class="about__buttons">
+                            <a download="" href="https://drive.google.com/file/d/1c8Qf-2PR7FCHggI7XoF_iPzCsGIix3SW/view?usp=sharing" class="button button-flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <div class="stats-container">
+                    <!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="70" data-soft="Photoshop" data-color="#C0DCF1">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/photoshop.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#C0DCF1"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#8FBDE6"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="90" data-soft="Figma" data-color="#FF7262">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/Figma.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#FF7262"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#F24E1E"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="55" data-soft="Adobe XD" data-color="#e890f0">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/Adobe XD.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#e890f0"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#fe61f7"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="95" data-soft="Canva" data-color="#455de8">
+                     <!-- Tooltip -->
+                     <span class="tooltiptext"><span></span></span>
+                     <!-- Stat icon -->
+                     <img src="assets/img/Canva.png" alt="">
+                     <!-- SVG Stat -->
+                    <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                         <path class="stat-back"
+                             stroke="#455de8"
+                             d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                         <!-- Stat (dynamic circle). -->
+                         <path class="stat-path"
+                           stroke="#00c2cc"
+                           d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                         </svg>
+                     </div><!--
+                
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="90" data-soft="HTML" data-color="#DB8B82">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/HTML.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#DB8B82"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#DB634C"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="80" data-soft="CSS" data-color="#7AB0CB">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/CSS.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#7AB0CB"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#3C8FC4"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="60" data-soft="JavaScript" data-color="#EECC6E">
+                      <!-- Tooltip -->
+                      <span class="tooltiptext"><span></span></span>
+                      <!-- Stat icon -->
+                      <img src="assets/img/JS.png" alt="">
+                      <!-- SVG Stat -->
+                      <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                              stroke="#EECC6E"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                              stroke="#EDB600"
+                              d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                      </svg>
+                    </div><!-- 
+                  
+                    Stat item.
+                    --><div class="stat-item tooltip" data-stat="85" data-soft="Python" data-color="#4B8BBE">
+                        <!-- Tooltip -->
+                        <span class="tooltiptext"><span></span></span>
+                        <!-- Stat icon -->
+                        <img src="assets/img/Python.png" alt="">
+                        <!-- SVG Stat -->
+                        <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <!-- Stat background (static circle). -->
+                        <path class="stat-back"
+                                stroke="#4B8BBE"
+                                d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        <!-- Stat (dynamic circle). -->
+                        <path class="stat-path"
+                                stroke="#306998"
+                                d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                        </svg>
+                    </div><!-- 
+                        Stat item.
+                        --><div class="stat-item tooltip" data-stat="75" data-soft="Java" data-color="#83bcf2">
+                            <!-- Tooltip -->
+                            <span class="tooltiptext"><span></span></span>
+                            <!-- Stat icon -->
+                            <img src="assets/img/Java.png" alt="">
+                            <!-- SVG Stat -->
+                            <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                            <!-- Stat background (static circle). -->
+                            <path class="stat-back"
+                                    stroke="#83bcf2"
+                                    d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                            <!-- Stat (dynamic circle). -->
+                            <path class="stat-path"
+                                    stroke="#73a1fb"
+                                    d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                            </svg>
+                        </div><!-- 
+                            Stat item.
+                            --><div class="stat-item tooltip" data-stat="85" data-soft="Git" data-color="#eb6e57">
+                                <!-- Tooltip -->
+                                <span class="tooltiptext"><span></span></span>
+                                <!-- Stat icon -->
+                                <img src="assets/img/Git.png" alt="">
+                                <!-- SVG Stat -->
+                                <svg viewbox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <!-- Stat background (static circle). -->
+                                <path class="stat-back"
+                                        stroke="#eb6e57"
+                                        d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                                <!-- Stat (dynamic circle). -->
+                                <path class="stat-path"
+                                        stroke="#f15133"
+                                        d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"/>
+                                </svg>
+                            </div> 
+                  </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Personal Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target='#work'>
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Computer Engineering</h3>
+                                <span class="qualification__subtitle">GEC Gandhinagar</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div> 
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">HIGHER SECONDARY IN SCIENCE</h3>
+                                <span class="qualification__subtitle">Axay High School</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018-2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                     <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Social Media Manager</h3>
+                                <span class="qualification__subtitle">GDSC GEC Gandhinagar</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Sept 2021 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Tech Lead - AI/ML</h3>
+                                <span class="qualification__subtitle">Club IDE</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jul 2022 - Present
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+              <h2 class="section__title">Services</h2>  
+              <span class="section__subtitle">What I Offer</span>
+
+              <div class="services__container container grid">
+                <!--==================== SERVICES 1====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More 
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">UI/UX <br>Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    I Develop the User Interface.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    Web Page Development.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    I create Ux element Intersection.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    Data-driven, highly scalable web applications with a rich user interface.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2====================-->
+                <div></div>
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">FrontEnd <br> Developer</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More 
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">FrontEnd <br>Developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    Website using HTML5 tools to build quality and robust applications.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    Frontend development services aimed to create efficient and sustainable applications with frontend architecture.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    I will create dynamic web & mobile apps using the right combination of HTML5 and CSS3.
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    Build future-proof web products
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+        <footer id="footer">
+            <div class="footer__bg">
+              <h3 class="footer__title">Thank You</h3>
+              <p class="footer__copy">Glad you are here, Find me on the socials above or mail be below.</span>
+              <div class="footer__socials">
+                <a href="https://www.github.com/jay2219" target="_blank" class="footer__social">
+                    <i class="uil uil-github"></i>                </a>
+                <a href="https://www.linkedin.com/Jay9122" target="_blank" class="footer__social">
+                    <i class="uil uil-linkedin-alt"></i>                
+                </a>
+                <a href="https://www.twitter.com/_jay_9122" target="_blank" class="footer__social">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+                <a href="mailto:jay54prajapati@gmail.com" target="_blank" class="footer__social">
+                    <i class="uil uil-envelope"></i>                
+                </a>
+              </div>
+              <div class="copyright">
+                &copy; <strong><span>Jay Prajapati</span></strong>. All Rights Reserved
+              </div>
+            </div>
+          </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets\js\swiper-bundle.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets\js\main.js"></script>
+    </body>
+</html>
