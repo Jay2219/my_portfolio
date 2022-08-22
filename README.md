@@ -1,3 +1,3 @@
 This is my portfolio website.
 
-Check it out : jayprajapati.githu.io
+Check it out : https://jayprajapati.netlify.app
